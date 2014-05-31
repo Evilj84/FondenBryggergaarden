@@ -1,0 +1,81 @@
+﻿body {
+}
+
+#header {
+    padding:0px;
+    margin:0 auto;
+    min-height:100px;
+    background: linear-gradient(#0c88d0, #a1dcfe);
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+
+#menuText {
+    padding-top:10px;
+    vertical-align:middle;
+    display:inline-block;
+    padding-left:30px;
+}
+
+#mainTitle{
+    padding-bottom:2px;
+    display:block;
+    clear:both;
+    font-family:Arial;
+    font-size:30px;
+    font-weight:bold;
+}
+
+#secondTitle {
+    font-family:Arial;
+    font-size:16px;
+    font-style:italic;
+    display:block;
+    clear:both;
+    border-top:2px;
+    border-top-color:black;
+    border-top-style:solid;
+}
+
+#logo {
+    vertical-align:middle;
+    margin:0 auto;
+    padding-top:10px;
+    padding-left:10px;
+    display:inline-block;
+}
+
+#logo img {
+    height:80px;
+}
+
+#bodyContent {
+    min-height:100%;
+    height:auto !important;
+    height:100%;
+    margin:0 auto -75px;
+    background: -webkit-linear-gradient(top, white 0%, #D4FF99 1080px);
+}
+
+#footer, #push {
+    height:75px;
+}
+
+#footer {
+    text-align:center;
+    padding:0px;
+    margin:0 auto;
+}
+
+#kontaktOverskrift {
+    font-family:Arial;
+    font-size:18px;
+    font-style:italic;
+}
+
+.kontaktInfo {
+    font-family:Arial;
+    font-size:14px;
+    font-style:italic;
+    display:inline-block;
+}
+

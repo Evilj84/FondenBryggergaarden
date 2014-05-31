@@ -1,0 +1,9 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{ var forside = Model.NodeById("1063"); }
+
+<div id="menuText">
+    <div id="mainTitle">@forside.sideTitel</div>
+    <div id="secondTitle">@forside.undertitel</div>
+</div>
+

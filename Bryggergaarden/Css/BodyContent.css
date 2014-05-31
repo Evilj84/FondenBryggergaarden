@@ -1,0 +1,58 @@
+﻿html, body {
+    text-align:center;
+    height:100%;
+    margin:0 auto;
+    padding:0;
+}
+
+html {
+    overflow-y:scroll;
+}
+
+.inside {
+    max-width:900px;
+    height:inherit;
+    margin:0 auto;
+    padding:0px;
+    text-align:left;
+}
+
+#contentWrapper p{
+    margin-top: 0px;
+    margin-bottom:15px;
+    font-family:Arial;      
+    font-size: 14px;
+}
+
+#contentWrapper {
+    margin-top:10px;
+    margin-bottom:10px;
+    /*min-height:80%;*/
+    background: #FFFFFD;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 0px 0px 20px #888888;
+    border:solid;
+    border-width:1px;
+    border-color:#888888;
+}
+
+#content {
+    padding: 15px;
+}
+
+#bodyWrapper {
+    min-width:900px;
+    margin-left:160px;
+    display:inline-block;
+}
+
+#akkrediteret {
+    vertical-align:top;
+    display:inline-block;
+    margin-left:10px;
+    margin-top:10px;
+    /*position:absolute;
+    margin-left:500px;
+    float:left;*/
+}

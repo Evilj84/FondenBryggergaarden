@@ -1,0 +1,46 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{ var homeNode = Model.AncestorOrSelf("Forside"); }
+
+<nav>
+    <ul>
+        <li>
+            <a id="menuItem" href="/">
+                <div>
+                    <img src="/Media/Layout/house.png" alt="Forside" style="padding-top:-1px;" />
+                    Forside
+                </div>
+            </a>
+        </li>
+        @foreach (var page in homeNode.Children.Where("Visible"))
+        {
+            <li>
+                <a id="menuItem" href="@page.Url">
+                    <div>
+                        @page.Name
+                    </div>
+                </a>
+
+                @if (page.Children.Where("Visible").Count() > 0)
+	            {
+                    <ul>
+                        @foreach ( var childPage in page.Children.Where("Visible"))
+                        {
+                            <li>
+                                <a href="@childPage.Url">
+                                    <div>
+                                        @childPage.Name
+                                    </div>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+	            }
+
+            </li>
+        }
+        @*<li>
+            <a id="admin" href="/umbraco">Administrer siden</a>
+        </li>*@
+    </ul>
+</nav>

@@ -1,0 +1,78 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Header.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Menu.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Afdelinger.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/BodyContent.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Tekst formater.css")" />
+   
+    <title>Bryggergården Samsø</title>
+</head>
+<body>
+    
+
+    <div id="bodyContent">
+        <div id="header">
+            <div class="inside">
+                <div id="logo">
+                    <a href="/">
+                        <img src="/Media/Layout/Logo.png" alt="Bryggergården logo" />
+                    </a>
+                </div>
+				
+				@Umbraco.RenderMacro("Titler")
+				
+                @*<div id="menuText">
+                    <div id="mainTitle">Bryggergården Samsø</div>
+                    <div id="secondTitle">Et socialpædagogisk opholdssted på Samsø - øen midt i Danmark</div>
+                </div>*@
+
+            </div>
+        </div>
+
+        <div id="menu">
+            <div class="inside">
+                @Umbraco.RenderMacro("Menu")
+            </div>
+        </div>
+
+        
+
+        <div id="bodyWrapper">
+            <div class="inside">
+                <div id="contentWrapper">
+                    <div id="content">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="akkrediteret">
+            <a href="http://www.akkreditering.dk/" target="_blank">
+                <img src="/Media/Layout/logo_akkrediteret.png" alt="Akkrediteret" />
+            </a>
+        </div>
+
+        <div id="push"></div>
+        
+    </div>
+
+    
+
+    <div id="footer">
+        <div class="inside">
+            @*<div id="line"></div>*@
+            <div>
+				@Umbraco.RenderMacro("Kontakt")
+			</div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{ var forside = Model.NodeById("1063"); }
+
+<div id="kontaktWrapper">
+    <center id="kontaktOverskrift">Kontaktoplysninger til Bryggergården Samsø</center>
+    <center id="infoWrapper">
+        <div>
+            <div class="kontaktInfo">@forside.vejnavn -</div>
+            <div class="kontaktInfo">@forside.bynavn</div>
+        </div>
+        <div>
+            <div class="kontaktInfo">@forside.telefonNr -</div>
+            <div class="kontaktInfo">@forside.faxNr -</div>
+            <div class="kontaktInfo">@forside.email</div>
+        </div>
+    </center>
+</div>
+

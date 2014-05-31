@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_H>
+    <image>
+      <imageText>Hello, world!</imageText>
+      <cachedImage>
+        <fileName>HEL_2fc239fc5dae87cc5f44fcf3db45c3bf22905e793c77310a8b40751d219c5dbe.gif</fileName>
+        <dateCreated>Tue, 06 May 2014 20:34:04 GMT</dateCreated>
+        <imageFormat>gif</imageFormat>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>0</width>
+        <height>0</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>False</constrain>
+        <pad>False</pad>
+        <antiAlias>True</antiAlias>
+        <fontName>Arial</fontName>
+        <fontSize>32</fontSize>
+        <lineHeight>-1</lineHeight>
+        <fontStyle>Regular</fontStyle>
+        <fontColor>#000000</fontColor>
+        <align>left</align>
+        <valign>middle</valign>
+      </cachedImage>
+    </image>
+  </_H>
+</imageIndex>

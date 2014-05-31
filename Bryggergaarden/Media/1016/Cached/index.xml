@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_w>
+    <image>
+      <originalFileName>wp_20140112_001.jpg</originalFileName>
+      <size>2437970</size>
+      <dateLastModified>Wed, 07 May 2014 19:07:18 GMT</dateLastModified>
+      <width>3552</width>
+      <height>2000</height>
+      <cachedImage>
+        <fileName>WP__bd00cc9c33fb84075df73af71449372a5fd1ad8fa107007b0f9cf96534a1792b.jpeg</fileName>
+        <dateCreated>Sat, 10 May 2014 16:24:30 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>90</compression>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>200</width>
+        <height>113</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+      <cachedImage>
+        <fileName>WP__38b6877ade6e38d0aff5315b461bacc0d796df16654bc828d8f3e36daf542d2c.jpeg</fileName>
+        <dateCreated>Sat, 10 May 2014 16:49:03 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>90</compression>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>300</width>
+        <height>169</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+      <cachedImage>
+        <fileName>WP__30fd3ccf76f520ad389eb01d717f3766587ab8d5094ef1ab5e6916cb7c0107b8.jpeg</fileName>
+        <dateCreated>Sat, 10 May 2014 16:51:08 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>90</compression>
+        <rotate>0</rotate>
+        <flip />
+        <colorMode />
+        <crop />
+        <width>280</width>
+        <height>158</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_w>
+</imageIndex>

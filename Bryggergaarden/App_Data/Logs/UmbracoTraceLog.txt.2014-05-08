@@ -1,0 +1,5 @@
+2014-05-08 17:58:04,175 [91] INFO  Umbraco.Core.PluginManager - [Thread 86] Starting resolution types of umbraco.interfaces.IDataType
+2014-05-08 17:58:04,682 [91] INFO  Umbraco.Core.PluginManager - [Thread 86] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 506ms)
+2014-05-08 17:58:04,806 [91] INFO  Umbraco.Core.PluginManager - [Thread 86] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-05-08 17:58:04,861 [91] INFO  Umbraco.Core.PluginManager - [Thread 86] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 54ms)
+2014-05-08 23:20:01,379 [91] INFO  umbraco.BusinessLogic.Log - [Thread 72] Log scrubbed.  Removed all items older than 2014-03-09 23:20:01
